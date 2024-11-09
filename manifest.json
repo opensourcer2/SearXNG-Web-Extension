@@ -9,7 +9,7 @@
     "48": "searxng48.webp"
   },
   "browser_action": {
-    "default_title": "SearXNG"
+    "default_title": "SearXNG (local)"
   },
   "browser_specific_settings": {
     "gecko": {
@@ -18,11 +18,11 @@
   },
   "chrome_settings_overrides": {
     "search_provider": {
-      "name": "SearXNG",
+      "name": "SearXNG (local)",
       "keyword": "@searxng, @searx, @sx",
-      "search_url": "https://searx.be/search?q={searchTerms}",
+      "search_url": "https://searxng.local/search?q={searchTerms}",
       "favicon_url": "searxng128.webp",
-      "suggest_url": "https://searx.be/autocompleter?q={searchTerms}",
+      "suggest_url": "https://searxng.local/autocompleter?q={searchTerms}",
       "is_default": true
     }
   }
